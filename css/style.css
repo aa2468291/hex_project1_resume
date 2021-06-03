@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.name{
+	margin-top: 47px;
+	margin-left: 360px;
+	width: 1200px;
+	
+}
+
+
+body{
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: normal;
+}
+
+span{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h1{
+	font-size: 80px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+
+}
+
+.name h1{
+	border-bottom: black solid 2px;
+	padding-bottom: 17px;
+}
+
+
+.name img{
+	margin-top: 48px;
+	width: 324px;
+	height: 324px;
+}
+
+.white-block{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.profile{
+	margin-top: 45px;
+}
+
+h2{
+	font-size: 32px;
+	display: inline-block;
+}
+
+
+
+h3{
+	font-size: 24px;
+	line-height: 36px;
+}
+
+
+
+.title{
+	padding-bottom: 15px;
+	border-bottom: black solid 1px;
+}
+
+.title span{
+	color:#A00404;
+	font-size: 24px;
+	margin-left: 16px;
+}
+
+
+
+.profile-career h3{
+	margin-top: 16px;
+	
+}
+
+.profile-job{
+	margin-top: 24px;
+	margin-bottom: 72px;
+}
+
+.edu-content{
+	margin-top: 16px;
+	margin-bottom: 72px;
+}
+
+
+.blue-block{
+	width: 1920px;
+	margin: 0 auto;
+	background-color: #415165;
+}
+
+.skill{
+	padding-top: 24px;
+	text-align: center;
+	
+	color: white;
+	margin: 0 auto;
+	
+}
+
+.skill span{
+	color: white;
+}
+
+.skill .title{
+	width: 996px;
+	margin: 0 auto;
+	border-bottom: white solid 1px;
+}
+
+.skill-content{
+	margin-top: 40px;
+	margin-left: 852px;
+	text-align: left;
+	border-left: #96A9C4 solid 1px ;
+}
+
+.skill-content h3{
+	margin-left: 24px;
+}
+
+.container{
+	padding-bottom: 36px;
+	
+}
+
+.work .title{
+	margin-top:72px;
+	
+}
+
+.work-content{
+	margin-top:16px;
+	border-left: #96A9C4 solid 1px ;
+	margin-left:24px;
+	padding-left: 24px;
+	margin-bottom: 72px;
+}
+
+.work-content img{
+	width: 90px;
+	height: 90px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	
+}
+
+h4{
+	font-size: 20px;
+	line-height: 30px;
+	width: 642px;
+}
+
+li{
+	margin-bottom: 24px;
+}
+
+
+.contact{
+	padding-top: 24px;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	
+}
+
+.contact span{
+	color: white;
+}
+
+.contact .title{
+	width: 1200px;
+	margin: 0 auto;
+	border-bottom: white solid 1px;
+}
+
+.contact-content{
+	margin-top:32px;
+	padding-bottom:36px;
+}
+
+.contact-content img{
+	width: 48px;
+	height: 48px;
+	margin-right: 24px;
+}
+
+.contact-content li{
+	margin: 12px;
+}
